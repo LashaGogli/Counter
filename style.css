@@ -1,0 +1,50 @@
+.container{
+    width: 100vw;;
+    height: 100vh;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 300px;
+    padding-bottom: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 20px;
+}
+h1{
+    font-size: 80px;
+    color: 	#4682B4;
+    font-weight: 900;
+}
+.transParentDiv{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.downDiv{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+button{
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 3px black;
+}
+
+.result{
+    font-size: 150px;
+    font-weight: 900;
+    color: black;
+}
